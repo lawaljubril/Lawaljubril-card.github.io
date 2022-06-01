@@ -6,6 +6,8 @@
 
   <link rel="STYLESHEET" href="./css/main.css">  
 
+  <link rel="STYLESHEET" href="./css/responsive.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Four card feature section</title>
@@ -20,56 +22,64 @@
         <p>Our Artificial Intelligence powered tools use millions of project data points 
         to ensure that your project is successful</p> 
   </header>
+  <section class="row">
+    <nav class="column" id="left">
+      <div class="cards-1">
 
-  <div class="cards-1">
+        <div class="supervisor">
+          <h3>Supervisor</h3>
+          <p>Monitors activity to identify project roadblocks</p>
+        </div>
+        
+        <div class="icon-supervisor">
+          <img src="./images/icon-supervisor.svg" class="icon-supervisor">
+        </div>
 
-      <div class="supervisor">
-        <h3>Supervisor</h3>
-        <p>Monitors activity to identify project roadblocks</p>
       </div>
+    </nav>
+    
+    <nav class="column">
+      <div class="cards-2" >
+        <div class="team-builder">
+            <h3>Team Builder</h3>
+            <p>Scans our talent network to create the optimal team for your project</p>
+        </div>
+        <div>
+            <img src="./images/icon-team-builder.svg" class="icon-team-builder">
+        </div>
+      </div>
+
+      <div class="cards-3" >
+        <div class="karma">
+          <h3>Karma</h3>
+          <p>Regularly evaluates our talent to ensure quality</p>
+        </div>
+        <div>
+          <img src="./images/icon-karma.svg" class="icon-karma">
+        </div>
+      </div>
+    </nav>
       
-      <div class="icon-supervisor">
-        <img src="./images/icon-supervisor.svg" class="icon-supervisor">
+    <nav class="column" id="left">
+      <div class="cards-4" >
+        <div class="calculator">
+          <h3>Calculator</h3>
+          <p>Uses data from past projects to provide better delivery estimates</p>
+        </div>
+        <div>
+          <img src="./images/icon-calculator.svg" class="icon-calculator">
+        </div>
       </div>
-
-  </div>
-
-  <div class="cards-2">
-    <div class="team-builder">
-        <h3>Team Builder</h3>
-        <p>Scans our talent network to create the optimal team for your project</p>
-    </div>
-    <div>
-        <img src="./images/icon-team-builder.svg" class="icon-team-builder">
-    </div>
-  </div>
-
-  <div class="cards-3">
-    <div class="karma">
-      <h3>Karma</h3>
-      <p>Regularly evaluates our talent to ensure quality</p>
-    </div>
-    <div>
-      <img src="./images/icon-karma.svg" class="icon-karma">
-    </div>
-  </div>
+    </nav> 
+  </section>
   
-  <div class="cards-4">
-    <div class="calculator">
-      <h3>Calculator</h3>
-      <p>Uses data from past projects to provide better delivery estimates</p>
-    </div>
-    <div>
-      <img src="./images/icon-calculator.svg" class="icon-calculator">
-    </div>
-  </div>
   
 
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">LAWAL JUBRIL.</a>
+      Coded by <a href="#">LAWAL JIBRIL.</a>
     </p>
   </footer>
 </body>

@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+
+    }
+    #left {
+        margin-top: 1px;
+    }
+    p {
+        margin: 5px;
+    }
+    nav#left.column {
+        margin-bottom: 5px;
+    }
+}
