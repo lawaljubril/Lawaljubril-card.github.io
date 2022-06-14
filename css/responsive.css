@@ -43,3 +43,21 @@
         height: 260px;
     }
 }
+@media screen and (max-width: 1024px) {
+    .column {
+        width: 100%;
+    }
+    #left {
+        margin-top: 1px;
+    }
+    p {
+        margin: 5px;
+    }
+    nav#left.column {
+        margin-bottom: 5px;
+    }
+    .cards-1, .cards-2, .cards-3, .cards-4 {
+        width: 340px;
+        height: 230px;
+    }
+}
